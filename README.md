@@ -1,9 +1,19 @@
 # CLAC-Net
  Improving Accuracy in the Analysis of Medical Images via Cross-Layer Fusion and Asymmetric Connections
 
-# CLAC-Net
+# Description
+
+
+# Baseline of CLAC-Net
+<img width="698" alt="baseline" src="https://github.com/YF-W/CLAC-Net/assets/66008255/93afd068-a06b-4c5e-b0fc-cb303c5170c9">
+
+
+# Architecture of CLAC-Net
 ![QQ图片20231204172509](https://github.com/YF-W/CLAC-Net/assets/66008255/30551e44-73e1-4c4f-9302-0399d32dc782)
 
+
+# CLAC_structure
+![CLAC_structure](https://github.com/YF-W/CLAC-Net/assets/66008255/2d4b5132-8ae8-4d6a-a108-365df48db4b9)
 
 
 
