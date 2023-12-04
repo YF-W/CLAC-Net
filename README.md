@@ -23,15 +23,13 @@ Through rigorous testing, CLAC-Net has demonstrated its effectiveness, outperfor
 
 
 # Architecture of CLAC-Net
-![QQ图片20231204172509](https://github.com/YF-W/CLAC-Net/assets/66008255/30551e44-73e1-4c4f-9302-0399d32dc782)
-
+<img width="863" alt="CLAC" src="https://github.com/YF-W/CLAC-Net/assets/66008255/998f86fd-09b2-44ea-b31e-6b86da5f24de">
 
 # CLAC_structure
 ![CLAC_structure](https://github.com/YF-W/CLAC-Net/assets/66008255/2d4b5132-8ae8-4d6a-a108-365df48db4b9)
 
 
-
-### **Environment**
+# **Environment**
 
 IDE: PyCharm 2020.1 Professional Edition.
 
