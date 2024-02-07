@@ -20,6 +20,7 @@ Through rigorous testing, CLAC-Net has demonstrated its effectiveness, outperfor
 
 ## Baseline - ACUNet
 <img width="698" alt="baseline" src="https://github.com/YF-W/CLAC-Net/assets/66008255/93afd068-a06b-4c5e-b0fc-cb303c5170c9">
+
 We propose a novel Baseline structure, ACUNet, which we conceptualized. It consists of a symmetric five-layer U-shaped double convolution with asymmetric skip connections.This structure performs multiple convolutions,
 pooling, asymmetric skip connections, and upsampling. The bottleneck section uses only convolution to achieve encoder-decoder transition. ACUNet aims to solve the problem of large span in traditional skip connections
 of the UNet model. We reverse the order of the encoder’s sequential output and connect it to the decoder, ensuring equal span for each skip connection. This reduces information loss due to large spans. We address the
@@ -28,6 +29,10 @@ loss caused by reverse skip connections in our proposed CLAC-Net.
 
 ## Architecture of CLAC-Net
 <img width="863" alt="CLAC" src="https://github.com/YF-W/CLAC-Net/assets/66008255/998f86fd-09b2-44ea-b31e-6b86da5f24de">
+
+We introduce a new semantic segmentation model for medical imaging, CLAC-Net, which has cross-layer connections. This model uses a “single encoder - single decoder” structure, with mainly traditional double convolution 
+blocks, EDAB, and CLRKS. It tries to reduce feature loss from large skip connection spans and improve neck connections with fused skip connections, different rates of dilated convolutions, and self-attention layers.
+
 
 ## CLAC_structure
 ![CLAC_structure](https://github.com/YF-W/CLAC-Net/assets/66008255/2d4b5132-8ae8-4d6a-a108-365df48db4b9)
