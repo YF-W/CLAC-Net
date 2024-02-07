@@ -38,3 +38,12 @@ Framework:  PyTorch 1.13.0.
 Language: Python 3.8.15
 
 CUDA: 11.7
+
+## **Datasets**
+
+The LUNG dataset: https://www.kaggle.com/datasets/ojaswipandey/skin-lesion-dataset
+
+The CELL dataset: https://www.kaggle.com/competitions/data-science-bowl-2018/data
+
+The DRIVE dataset: https://grand-challenge.org
+
