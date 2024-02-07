@@ -18,8 +18,12 @@ c. A key component of CLAC-Net is the Deep Embedding Attention Bottleneck (DEAB)
 
 Through rigorous testing, CLAC-Net has demonstrated its effectiveness, outperforming similar models in various comparative studies. This makes it a valuable tool in the field of medical imaging and diagnostics.
 
-## Baseline of CLAC-Net
+## Baseline - ACUNet
 <img width="698" alt="baseline" src="https://github.com/YF-W/CLAC-Net/assets/66008255/93afd068-a06b-4c5e-b0fc-cb303c5170c9">
+We propose a novel Baseline structure, ACUNet, which we conceptualized. It consists of a symmetric five-layer U-shaped double convolution with asymmetric skip connections.This structure performs multiple convolutions,
+pooling, asymmetric skip connections, and upsampling. The bottleneck section uses only convolution to achieve encoder-decoder transition. ACUNet aims to solve the problem of large span in traditional skip connections
+of the UNet model. We reverse the order of the encoder’s sequential output and connect it to the decoder, ensuring equal span for each skip connection. This reduces information loss due to large spans. We address the
+loss caused by reverse skip connections in our proposed CLAC-Net.
 
 
 ## Architecture of CLAC-Net
