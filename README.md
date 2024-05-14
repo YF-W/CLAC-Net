@@ -1,5 +1,5 @@
 # CLAC-Net
- Improving Accuracy in the Analysis of Medical Images via Cross-Layer Fusion and Asymmetric Connections
+ Improving Accuracy in the Analysis of Medical Images via Cross-Layer Fusion and Asymmetric Connections.
 
 ## Description
 The Cross-layer and Asymmetric-connection Net (CLAC-Net) represents a significant advancement in medical image semantic segmentation, crucial for identifying organs and lesions, evaluating pathologies, and aiding in surgical procedures. This innovative network model tackles common challenges faced by existing models, such as:
